@@ -1,0 +1,61 @@
+@media (max-width: 800px) {
+    nav .mobile {
+        display: block;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    nav .nav-items {
+        display: none;
+    }
+
+    nav .nav-items.active {
+        animation-duration: 1s;
+        animation-name: slideIn;
+        animation-timing-function: ease-in-out;
+
+        animation-fill-mode: forwards;
+
+        display: flex;
+        flex-direction: column;
+        z-index: 1000;
+        margin-top: 70px;
+        height: 80vh;
+        width: 100%;
+        background: rgb(16, 176, 240);
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100vw);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 0.98;
+        }
+    }
+
+    .service-cards .card {
+        width: 100%;
+    }
+
+    .main .cleaning-cards .cleaning-card {
+        width: 100%;
+    }
+}
+
+.main .process {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .pump-card, .main .leak-card {
+    width: 80%;
+}
