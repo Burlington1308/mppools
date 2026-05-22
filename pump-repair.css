@@ -1,0 +1,16 @@
+.hero {
+    background-image: url('images/IMG-20260521-WA0024.jpg');
+}
+
+.main {
+    width: 100%;
+    padding-top: 5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgba(34, 32, 32, 0.2);
+    padding-bottom: 3vh;
+}
+
+.main h1 {
+    text-align: center;
+}
