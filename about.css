@@ -1,0 +1,48 @@
+.main {
+    width: 100%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5rem;
+    color: #333;
+    padding-bottom: 5rem;
+}
+
+.main h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.main p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.main ul {
+    margin-left: 25%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.main ul li {
+    line-height: 1.6;
+}
+
+.main .process {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #a1a1a1;
+    opacity: 1;
+    padding: 5% 10%;
+    border-radius: 10px;
+}
+
+.main .process h2 {
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+.main .process p {
+    line-height: 1.6;
+    text-align: center;
+}
