@@ -1,0 +1,71 @@
+.main {
+    width: 100%;
+    padding-top: 5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgba(34, 32, 32, 0.2);
+    padding-bottom: 3vh;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.main p {
+    margin-top: 3vh;
+    text-align: justify;
+}
+
+.main .process {
+    width: 60%;
+    margin-left: auto;
+    background: #3d3c3c;
+    opacity: 1;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    color: #f2f2f2;
+    margin-top: 3vh;
+}
+
+.process h2 {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.process ul {
+    padding: auto;
+}
+
+.process ul li {
+    line-height: 1.6;
+    padding-bottom: 1rem;
+}
+
+.faqs {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding-bottom: 2vh;
+
+}
+
+.faqs h1 {
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.faqs .faq-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vh;
+    background: #727171;
+    margin-top: 2vh;
+    border-radius: 10px;
+    text-align: center;
+}
