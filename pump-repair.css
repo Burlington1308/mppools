@@ -2,6 +2,16 @@
     background-image: url('images/IMG-20260521-WA0024.jpg');
 }
 
+.hero h1, .hero h2 {
+    background-color: rgba(34, 32, 32, 0.75);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+
 .main {
     width: 100%;
     padding-top: 5vh;
@@ -12,5 +22,43 @@
 }
 
 .main h1 {
+    text-align: center;
+}
+
+.main p {
+    margin-top: 3vh;
+    text-align: justify;
+}
+
+.process {
+    margin-top: 5vh;
+}
+
+.process .step {
+    margin-top: 3vh;
+}
+
+.faqs {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding-bottom: 2vh;
+
+}
+
+.faqs h1 {
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.faqs .faq-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vh;
+    background: #727171;
+    margin-top: 2vh;
+    border-radius: 10px;
     text-align: center;
 }
